@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <title>Survey Form</title>
+  </header>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Description</p>
+    <form id="survey-form">
+      <label id="name-label">
+         <input id="name" type="text" placeholder="Fullname" required />
+      </label>
+      <label id="email-label">
+        <input id="email" placeholder="Email" type="email" required />
+      </label>
+      <label id="number-label">
+      <input id="number" placeholder="Number" type="number" min="3" max="13"/>
+      </label>
+      <select id="dropdown">
+        <option>
+          Option 1
+        </option>
+        <option>
+          Option 2
+        </option>
+      </select>
+      <input type="radio" name="radio" value="select">
+      <input type="radio" name="radio" value="select">
+      <input type="checkbox" value="select">
+      <input type="checkbox" value="select">
+      <textarea></textarea>
+      <input type="submit" id="submit">
+    </form>
+  </body>
+</html>
